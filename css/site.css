@@ -1,0 +1,27 @@
+main>.container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+.sticky-footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.bgImage{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background: url(/img/wallpaperflare.com_wallpaper.jpg);
+}
+
+.titleText{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5em;
+    text-transform: uppercase;
+    color: rgb(253, 253, 0);
+}
