@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>Bootstrap And The Grids</title>
+    <title>Bootstrap And The Grids - Grid 1</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,7 +17,7 @@
 
 <body class="d-flex flex-column h-100">
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="/index.html">Bootstrap and The Grids</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -63,11 +63,20 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-           <h1 class="mt-5">Template with dark fixed navbar and sticky footer</h1>
-           <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with padding-top: 60px; on the main > .container.</p>
+       <div class="container mt-1 h-100 minHeight">
+           <div class="row row-cols-1 row-cols-md-2 h-100 gy-2">
+           <div class="col">
+               <div class="bg-dark text-light h-100"> COL ONE </div>              
+           </div>          
+           <div class="col">
+               <div class="bg-secondary text-light h-100"> 
+                   COL TWO
+               </div>
+           </div>
+        </div>
        </div>
     </main>
+
     <footer class="footer mt-auto py-3 bg-light sticky-footer">
         <div class="container-fluid text-center">
             <span class="text-muted">Built By Chris Miller</span>

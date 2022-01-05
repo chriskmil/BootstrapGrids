@@ -16,7 +16,7 @@ main>.container {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background: url(/img/wallpaperflare.com_wallpaper.jpg);
+    background: url(/img/GridBG.png);
 }
 
 .titleText{
@@ -24,4 +24,8 @@ main>.container {
     font-size: 5em;
     text-transform: uppercase;
     color: rgb(253, 253, 0);
+}
+
+.minHeight{
+    min-height: 80vh;
 }
