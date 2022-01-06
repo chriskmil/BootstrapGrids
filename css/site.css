@@ -1,4 +1,5 @@
-main>.container {
+main>.container,
+main>.container-fluid {
     padding: 60px 15px 0;
     margin-bottom: 5rem;
 }
@@ -28,4 +29,8 @@ main>.container {
 
 .minHeight{
     min-height: 80vh;
+}
+
+p{
+    padding: 0 20px 0 20px;
 }
